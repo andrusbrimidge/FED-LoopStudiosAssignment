@@ -9,6 +9,7 @@
 .white {
     color: hsl(0, 0%, 100%);
     font-size: 22px;
+    text-decoration: none;
 }
 
 .dg {
@@ -62,6 +63,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 #logo {
     z-index: 10;
@@ -69,6 +71,7 @@ nav {
 .nav-item {
     display: inline-block;
     padding: 0px 20px;
+    
     
 }
 nav .nav-item:last-of-type {
