@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+/*Global Css*/
+* {
+       margin: 0%;
+       font-size: 15px;
+}
+.white {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+}
+
+.dg {
+    color: hsl(0, 0%, 55%);
+}
+
+.very-dg {
+    color: hsl(0, 0%, 41%);
+}
+
+.alata-font {
+font-family: "Alata", sans-serif;
+font-weight: 400;
+
+}
+.joesfin-font {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.relative {
+    position: relative;
+}
+.titles {
+    font-size: 3rem;    
+}
+.black {
+    background-color: black;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.padding-left {
+    padding-left: 0.5em;
+}
+
+/*End global*/
+header {
+    background-image: url("./images/desktop/image-hero.jpg");
+    padding: 40px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    z-index: 10;
+}
+.nav-item {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+nav .nav-item:last-of-type {
+    padding-right: 0px;
+    
+}
+.underline {
+    width: 0;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 4px;
+    transition: 0.2s ease-in-out all;
+}
+.nav-item:hover .underline, 
+    .socials div:hover .underline {
+        width: 35%;
+    }
+.header-box {
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 30px;
+    display: 30px;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 88px 0px;
+    min-width: 480px;
+}
+.header-box p {
+    margin: 0;
+    font-size: 3.5rem;
+    width: auto;
+}
+/*Main*/
+section {
+    padding-top: 100px;
+}
+.first-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+}
+.first-section p,
+.section-header p {
+    margin-bottom: 0;
+}
+.first-section p:last-of-type {
+line-height: 22px;
+}
+.home-text-container {
+    background: hsl(0, 0%, 100%);
+    padding: 100px 0px 0px 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 55%;
+}
+.section-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+    
