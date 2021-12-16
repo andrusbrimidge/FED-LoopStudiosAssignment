@@ -63,21 +63,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-}
+   }
 #logo {
     z-index: 10;
 }
 .nav-item {
     display: inline-block;
     padding: 0px 20px;
-    
-    
-}
+    }
 nav .nav-item:last-of-type {
     padding-right: 0px;
-    
-}
+    }
 .underline {
     width: 0;
     height: 2px;
@@ -129,11 +125,92 @@ line-height: 22px;
     bottom: 0px;
     right: 0px;
     width: 55%;
+  
 }
 .section-header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
+.default-btn:hover {
+    background-color: black;
+    color: white;
+}
+.creations-container {
+    display: grid;
+    padding: 40px 0px;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    padding-bottom: 100px;
+}
+.creation {
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    }
+    .creation img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .image-caption {
+        position: absolute;
+        padding-bottom: 2em;
+        bottom: 0px;
+        left: 35px;
+        font-size: 1.8rem;
+        width: 50%;
+        transition: o0.2s ease-in-out all;
+    }
+    .creation-overlay {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.3);
+        transition: 0.2s ease-in-out all;
+        left: 0;
+        top: 0;
+    }
+    .creation:hover .creation-overlay {
+        background: rgba(255, 255 255, 0.6);
+}
+.creation:hover .image-caption {
+    color:  hsl(0, 0%, 41%);
+}
+/*footer*/
+footer {
+    padding: 25px 0px;
+}
+footer .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer .nav-link-container {
+    margin: 15px 0px;
+}
+footer .nav-item:first-child {
+    padding-left: 0px;
+}
+.footer-logo {
+    width: 150px;
+}
+footer .socials {
+    text-align: right;
+    margin-bottom: 0.5em;
+}
+.socials div {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 0.2em;
+}
+
+
+.home-container {
+    border: 2px solid red;
+    margin-right: 0%;
+}
+
 
     
