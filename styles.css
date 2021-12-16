@@ -304,6 +304,49 @@ footer .socials {
     bottom: -15px;
     left: 25px;
 }
+/*mobile*/
+@media  screen and (max-width: 480px) {
+    .creations-container {
+        grid-template-columns: auto;
+    }
+    header {
+        background-image: url("./images/mobile/image-hero.jpg");
+        height: 600px;
+    }
+    .header-box {
+        margin-top: 150px;
+    }
+    secction {
+        padding-top: 60px;
+    }
+    .first-section p {
+        margin-top: 20px;
+    }
+    .creations-section{
+        position: relative;
+    }
+    .section-header .default-btn {
+        position: absolute;
+        bottom: 40px;
+    }
+    .section-header {
+        justify-content: center;
+    }
+    footer .content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    footer .nav-item {
+        display: block;
+        padding: 5px 0px;
+    }
+    footer .socials {
+        text-align: center;
+    }
+
+
+    
 
 
 
