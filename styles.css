@@ -48,7 +48,7 @@ font-weight: 400;
     max-width: 1440px;
 }
 
-.padding-left {
+.vr-text-padding-left {
     padding-left: 0.5em;
 }
 
@@ -106,6 +106,7 @@ nav .nav-item:last-of-type {
 }
 /*Main*/
 section {
+    display: block;
     padding-top: 100px;
 }
 .first-section {
@@ -118,10 +119,14 @@ section {
 #grid-phots {
     margin-bottom: 0;
 }
+#vr-picture {
+    border: 10px, solid black;
+}
+
 .first-section p:last-of-type {
 line-height: 22px;
 }
-.home-text-container {
+#vr-text-container {
     background: hsl(0, 0%, 100%);
     padding: 100px 0px 0px 90px;
     position: absolute;
@@ -145,15 +150,18 @@ line-height: 22px;
     gap: 10px;
     gap: 10px;
     justify-content: space-between;
-    column-gap: 20px;
+    column-gap: 0px;
     row-gap: 10px;
     padding-bottom: 100px;
     align-content: space-around;
+    flex-wrap: wrap;
 }
 .creation {
     position: relative;
     cursor: pointer;
     height: 100%;
+    flex-wrap: wrap;
+    justify-items: flex-start;
     }
     .creation img {
         object-fit: cover;
